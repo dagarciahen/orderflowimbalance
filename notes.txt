@@ -1,0 +1,9 @@
+-I save the time with time.time() is not real time but time of processing/latency b pathin but the paper uses
+windows of 10 seconds so is not important and the dififrence will be milisseconds 
+
+-I've seen other implementations online that uses pandas but it will add latency event_contribution will be call
+thounsed of times by second and access to curr["bid_price"] is faster than dataframe or even bt.best_bid_price
+
+-I replicated the time window of two seconds but what if if there is a big difference
+between events of two differentes times multi-level-ofi?? a dequeue ds could help 
+
